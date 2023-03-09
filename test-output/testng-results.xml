@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="76" passed="72" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-09T07:25:14 IST" name="Suite" finished-at="2023-03-09T07:26:33 IST" duration-ms="78800">
+    <groups>
+      <group name="Login">
+        <method signature="GroupsExample.testCase3()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase3" class="com.testng.learning.GroupsExample"/>
+        <method signature="GroupsExample.testCase6()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase6" class="com.testng.learning.GroupsExample"/>
+        <method signature="GroupsExample.testCase7()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase7" class="com.testng.learning.GroupsExample"/>
+        <method signature="GroupsExample.testCase8()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase8" class="com.testng.learning.GroupsExample"/>
+      </group> <!-- Login -->
+      <group name="Inbox">
+        <method signature="GroupsExample.testCase1()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase1" class="com.testng.learning.GroupsExample"/>
+        <method signature="GroupsExample.testCase10()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase10" class="com.testng.learning.GroupsExample"/>
+        <method signature="GroupsExample.testCase2()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase2" class="com.testng.learning.GroupsExample"/>
+        <method signature="GroupsExample.testCase4()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase4" class="com.testng.learning.GroupsExample"/>
+        <method signature="GroupsExample.testCase5()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase5" class="com.testng.learning.GroupsExample"/>
+        <method signature="GroupsExample.testCase9()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" name="testCase9" class="com.testng.learning.GroupsExample"/>
+      </group> <!-- Inbox -->
+    </groups>
+    <test started-at="2023-03-09T07:25:14 IST" name="Test" finished-at="2023-03-09T07:26:33 IST" duration-ms="78800">
+      <class name="com.testng.learning.FirstExample">
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.FirstExample@6bbe85a8]" started-at="2023-03-09T07:25:35 IST" name="testCase1" finished-at="2023-03-09T07:25:47 IST" duration-ms="11601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.FirstExample@6bbe85a8]" started-at="2023-03-09T07:25:59 IST" name="testCase2" finished-at="2023-03-09T07:26:15 IST" duration-ms="16639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.testng.learning.FirstExample -->
+      <class name="com.testng.learning.DependsOnMethodsExample">
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.DependsOnMethodsExample@795509d9]" started-at="2023-03-09T07:25:30 IST" name="testCase1" finished-at="2023-03-09T07:25:35 IST" duration-ms="5008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:-1, instance:com.testng.learning.DependsOnMethodsExample@795509d9]" started-at="2023-03-09T07:25:35 IST" name="testCase2" finished-at="2023-03-09T07:25:35 IST" depends-on-methods="com.testng.learning.DependsOnMethodsExample.testCase1" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.testng.learning.DependsOnMethodsExample -->
+      <class name="com.testng.learning.TestCasesWithPriorityExample">
+        <test-method signature="testCase_b()[pri:1, instance:com.testng.learning.TestCasesWithPriorityExample@53045c6c]" started-at="2023-03-09T07:26:33 IST" name="testCase_b" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_b -->
+        <test-method signature="testCase_e()[pri:1, instance:com.testng.learning.TestCasesWithPriorityExample@53045c6c]" started-at="2023-03-09T07:26:33 IST" name="testCase_e" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_e -->
+        <test-method signature="testCase_d()[pri:2, instance:com.testng.learning.TestCasesWithPriorityExample@53045c6c]" started-at="2023-03-09T07:26:33 IST" name="testCase_d" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_d -->
+        <test-method signature="testCase_a()[pri:3, instance:com.testng.learning.TestCasesWithPriorityExample@53045c6c]" started-at="2023-03-09T07:26:33 IST" name="testCase_a" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_a -->
+        <test-method signature="testCase_c()[pri:5, instance:com.testng.learning.TestCasesWithPriorityExample@53045c6c]" started-at="2023-03-09T07:26:33 IST" name="testCase_c" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_c -->
+      </class> <!-- com.testng.learning.TestCasesWithPriorityExample -->
+      <class name="com.testng.learning.InvocationCountExample">
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.InvocationCountExample@5149d738]" started-at="2023-03-09T07:25:35 IST" name="testCase1" finished-at="2023-03-09T07:25:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.InvocationCountExample@5149d738]" started-at="2023-03-09T07:25:35 IST" name="testCase1" finished-at="2023-03-09T07:25:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.InvocationCountExample@5149d738]" started-at="2023-03-09T07:25:35 IST" name="testCase1" finished-at="2023-03-09T07:25:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.InvocationCountExample@5149d738]" started-at="2023-03-09T07:25:59 IST" name="testCase2" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.InvocationCountExample@5149d738]" started-at="2023-03-09T07:25:59 IST" name="testCase2" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:com.testng.learning.InvocationCountExample@5149d738]" started-at="2023-03-09T07:26:33 IST" name="testCase3" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase4()[pri:0, instance:com.testng.learning.InvocationCountExample@5149d738]" started-at="2023-03-09T07:26:33 IST" name="testCase4" finished-at="2023-03-09T07:26:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+      </class> <!-- com.testng.learning.InvocationCountExample -->
+      <class name="com.testng.learning.BeforeMethodAfterMethodExample">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.learning.BeforeMethodAfterMethodExample@53fb3dab]" started-at="2023-03-09T07:25:47 IST" name="beforeMethod" finished-at="2023-03-09T07:25:49 IST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.BeforeMethodAfterMethodExample@53fb3dab]" started-at="2023-03-09T07:25:49 IST" name="testCase1" finished-at="2023-03-09T07:25:58 IST" duration-ms="9348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.learning.BeforeMethodAfterMethodExample@53fb3dab]" started-at="2023-03-09T07:25:58 IST" name="afterMethod" finished-at="2023-03-09T07:25:59 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.learning.BeforeMethodAfterMethodExample@53fb3dab]" started-at="2023-03-09T07:26:15 IST" name="beforeMethod" finished-at="2023-03-09T07:26:18 IST" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.BeforeMethodAfterMethodExample@53fb3dab]" started-at="2023-03-09T07:26:18 IST" name="testCase2" finished-at="2023-03-09T07:26:33 IST" duration-ms="15345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.learning.BeforeMethodAfterMethodExample@53fb3dab]" started-at="2023-03-09T07:26:33 IST" name="afterMethod" finished-at="2023-03-09T07:26:33 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testng.learning.BeforeMethodAfterMethodExample -->
+      <class name="com.testng.learning.GroupsExample">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:25:14 IST" name="beforeTest" finished-at="2023-03-09T07:25:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:25:47 IST" name="testCase1" finished-at="2023-03-09T07:25:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase10()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:25:59 IST" name="testCase10" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase10 -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:15 IST" name="testCase2" finished-at="2023-03-09T07:26:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:33 IST" name="testCase3" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase4()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:33 IST" name="testCase4" finished-at="2023-03-09T07:26:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method signature="testCase5()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:33 IST" name="testCase5" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method signature="testCase6()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:33 IST" name="testCase6" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+        <test-method signature="testCase7()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:33 IST" name="testCase7" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase7 -->
+        <test-method signature="testCase8()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:33 IST" name="testCase8" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase8 -->
+        <test-method signature="testCase9()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:33 IST" name="testCase9" finished-at="2023-03-09T07:26:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase9 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testng.learning.GroupsExample@548d708a]" started-at="2023-03-09T07:26:33 IST" name="afterTest" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testng.learning.GroupsExample -->
+      <class name="com.testng.learning.Example2">
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.Example2@4be29ed9]" started-at="2023-03-09T07:25:47 IST" name="testCase1" finished-at="2023-03-09T07:25:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.learning.Example2@4be29ed9]" started-at="2023-03-09T07:25:47 IST" name="beforeMethod" finished-at="2023-03-09T07:25:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.learning.Example2@4be29ed9]" started-at="2023-03-09T07:25:47 IST" name="afterMethod" finished-at="2023-03-09T07:25:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.Example2@4be29ed9]" started-at="2023-03-09T07:26:15 IST" name="testCase2" finished-at="2023-03-09T07:26:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.learning.Example2@4be29ed9]" started-at="2023-03-09T07:26:15 IST" name="beforeMethod" finished-at="2023-03-09T07:26:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.learning.Example2@4be29ed9]" started-at="2023-03-09T07:26:15 IST" name="afterMethod" finished-at="2023-03-09T07:26:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testng.learning.Example2 -->
+      <class name="com.testng.learning.EnabledExample">
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.EnabledExample@33065d67]" started-at="2023-03-09T07:25:59 IST" name="testCase1" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.EnabledExample@33065d67]" started-at="2023-03-09T07:26:33 IST" name="testCase2" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase4()[pri:0, instance:com.testng.learning.EnabledExample@33065d67]" started-at="2023-03-09T07:26:33 IST" name="testCase4" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method signature="testCase5()[pri:0, instance:com.testng.learning.EnabledExample@33065d67]" started-at="2023-03-09T07:26:33 IST" name="testCase5" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method signature="testCase6()[pri:0, instance:com.testng.learning.EnabledExample@33065d67]" started-at="2023-03-09T07:26:33 IST" name="testCase6" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+      </class> <!-- com.testng.learning.EnabledExample -->
+      <class name="com.testng.learning.AlwaysRunExample">
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.AlwaysRunExample@cb0755b]" started-at="2023-03-09T07:25:59 IST" name="testCase1" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.fail(Assert.java:95)
+at com.testng.learning.AlwaysRunExample.testCase1(AlwaysRunExample.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.AlwaysRunExample@cb0755b]" started-at="2023-03-09T07:26:33 IST" name="testCase2" finished-at="2023-03-09T07:26:33 IST" depends-on-methods="com.testng.learning.AlwaysRunExample.testCase1" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.testng.learning.AlwaysRunExample -->
+      <class name="com.testng.learning.TestCasesWithZeroAsPriorityExample">
+        <test-method signature="testCase_e()[pri:0, instance:com.testng.learning.TestCasesWithZeroAsPriorityExample@7526515b]" started-at="2023-03-09T07:26:33 IST" name="testCase_e" finished-at="2023-03-09T07:26:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_e -->
+        <test-method signature="testCase_b()[pri:1, instance:com.testng.learning.TestCasesWithZeroAsPriorityExample@7526515b]" started-at="2023-03-09T07:26:33 IST" name="testCase_b" finished-at="2023-03-09T07:26:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_b -->
+        <test-method signature="testCase_d()[pri:2, instance:com.testng.learning.TestCasesWithZeroAsPriorityExample@7526515b]" started-at="2023-03-09T07:26:33 IST" name="testCase_d" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_d -->
+        <test-method signature="testCase_a()[pri:3, instance:com.testng.learning.TestCasesWithZeroAsPriorityExample@7526515b]" started-at="2023-03-09T07:26:33 IST" name="testCase_a" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_a -->
+        <test-method signature="testCase_c()[pri:5, instance:com.testng.learning.TestCasesWithZeroAsPriorityExample@7526515b]" started-at="2023-03-09T07:26:33 IST" name="testCase_c" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_c -->
+      </class> <!-- com.testng.learning.TestCasesWithZeroAsPriorityExample -->
+      <class name="com.testng.learning.GroupingTestCasesExample">
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.GroupingTestCasesExample@19e4653c]" started-at="2023-03-09T07:25:30 IST" name="testCase1" finished-at="2023-03-09T07:25:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.GroupingTestCasesExample@19e4653c]" started-at="2023-03-09T07:25:59 IST" name="testCase2" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:0, instance:com.testng.learning.GroupingTestCasesExample@19e4653c]" started-at="2023-03-09T07:26:33 IST" name="testCase3" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase4()[pri:0, instance:com.testng.learning.GroupingTestCasesExample@19e4653c]" started-at="2023-03-09T07:26:33 IST" name="testCase4" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method signature="testCase5()[pri:0, instance:com.testng.learning.GroupingTestCasesExample@19e4653c]" started-at="2023-03-09T07:26:33 IST" name="testCase5" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+      </class> <!-- com.testng.learning.GroupingTestCasesExample -->
+      <class name="com.testng.learning.TestFile">
+        <test-method signature="testCase1(java.lang.Object)[pri:0, instance:com.testng.learning.TestFile@712625fd]" started-at="2023-03-09T07:25:59 IST" name="testCase1" data-provider="test-data" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lambda Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.lang.Object)[pri:0, instance:com.testng.learning.TestFile@712625fd]" started-at="2023-03-09T07:25:59 IST" name="testCase1" data-provider="test-data" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.testng.learning.TestFile -->
+      <class name="com.testng.learning.DataProvidersExample">
+        <test-method signature="testCase1(java.lang.Object)[pri:0, instance:com.testng.learning.DataProvidersExample@20140db9]" started-at="2023-03-09T07:25:15 IST" name="testCase1" data-provider="data-provider" finished-at="2023-03-09T07:25:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sucheendra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.lang.Object)[pri:0, instance:com.testng.learning.DataProvidersExample@20140db9]" started-at="2023-03-09T07:25:15 IST" name="testCase1" data-provider="data-provider" finished-at="2023-03-09T07:25:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.lang.Object)[pri:0, instance:com.testng.learning.DataProvidersExample@20140db9]" started-at="2023-03-09T07:25:15 IST" name="testCase1" data-provider="data-provider" finished-at="2023-03-09T07:25:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.lang.Object)[pri:0, instance:com.testng.learning.DataProvidersExample@20140db9]" started-at="2023-03-09T07:25:15 IST" name="testCase1" data-provider="data-provider" finished-at="2023-03-09T07:25:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.testng.learning.DataProvidersExample -->
+      <class name="com.testng.learning.CrossBrowserTestingExample">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.testng.learning.CrossBrowserTestingExample@2a265ea9]" started-at="2023-03-09T07:25:15 IST" name="beforeMethod" finished-at="2023-03-09T07:25:17 IST" duration-ms="2549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.CrossBrowserTestingExample@2a265ea9]" started-at="2023-03-09T07:25:17 IST" name="testCase1" finished-at="2023-03-09T07:25:30 IST" duration-ms="13281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.testng.learning.CrossBrowserTestingExample -->
+      <class name="com.testng.learning.AssertExample">
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.AssertExample@644baf4a]" started-at="2023-03-09T07:25:15 IST" name="testCase1" finished-at="2023-03-09T07:25:15 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.fail(Assert.java:95)
+at com.testng.learning.AssertExample.testCase1(AssertExample.java:10)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.AssertExample@644baf4a]" started-at="2023-03-09T07:25:59 IST" name="testCase2" finished-at="2023-03-09T07:25:59 IST" depends-on-methods="com.testng.learning.AssertExample.testCase1" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.testng.learning.AssertExample.testCase2() on instance com.testng.learning.AssertExample@644baf4a depends on not successfully finished methods 
+[com.testng.learning.AssertExample.testCase1() on instance com.testng.learning.AssertExample@644baf4a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.testng.learning.AssertExample.testCase2() on instance com.testng.learning.AssertExample@644baf4a depends on not successfully finished methods 
+[com.testng.learning.AssertExample.testCase1() on instance com.testng.learning.AssertExample@644baf4a]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.testng.learning.AssertExample -->
+      <class name="com.testng.learning.BeforeTestAfterTestExample">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:14 IST" name="beforeTest" finished-at="2023-03-09T07:25:14 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:30 IST" name="beforeClass" finished-at="2023-03-09T07:25:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:30 IST" name="testCase1" finished-at="2023-03-09T07:25:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:30 IST" name="beforeMethod" finished-at="2023-03-09T07:25:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:30 IST" name="afterMethod" finished-at="2023-03-09T07:25:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:59 IST" name="beforeMethod" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:59 IST" name="testCase2" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:59 IST" name="afterMethod" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:25:59 IST" name="afterClass" finished-at="2023-03-09T07:25:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testng.learning.BeforeTestAfterTestExample@74e28667]" started-at="2023-03-09T07:26:33 IST" name="afterTest" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testng.learning.BeforeTestAfterTestExample -->
+      <class name="com.testng.learning.BeforeClassAfterClassExample">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testng.learning.BeforeClassAfterClassExample@3a7442c7]" started-at="2023-03-09T07:25:47 IST" name="beforeClass" finished-at="2023-03-09T07:25:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testCase1()[pri:0, instance:com.testng.learning.BeforeClassAfterClassExample@3a7442c7]" started-at="2023-03-09T07:25:47 IST" name="testCase1" finished-at="2023-03-09T07:25:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.learning.BeforeClassAfterClassExample@3a7442c7]" started-at="2023-03-09T07:25:47 IST" name="beforeMethod" finished-at="2023-03-09T07:25:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.learning.BeforeClassAfterClassExample@3a7442c7]" started-at="2023-03-09T07:25:47 IST" name="afterMethod" finished-at="2023-03-09T07:25:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.learning.BeforeClassAfterClassExample@3a7442c7]" started-at="2023-03-09T07:26:15 IST" name="beforeMethod" finished-at="2023-03-09T07:26:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase2()[pri:0, instance:com.testng.learning.BeforeClassAfterClassExample@3a7442c7]" started-at="2023-03-09T07:26:15 IST" name="testCase2" finished-at="2023-03-09T07:26:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.learning.BeforeClassAfterClassExample@3a7442c7]" started-at="2023-03-09T07:26:15 IST" name="afterMethod" finished-at="2023-03-09T07:26:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testng.learning.BeforeClassAfterClassExample@3a7442c7]" started-at="2023-03-09T07:26:15 IST" name="afterClass" finished-at="2023-03-09T07:26:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testng.learning.BeforeClassAfterClassExample -->
+      <class name="com.testng.learning.TestCaseWithNegativePriorityExample">
+        <test-method signature="testCase_c()[pri:-1, instance:com.testng.learning.TestCaseWithNegativePriorityExample@4b013c76]" started-at="2023-03-09T07:25:15 IST" name="testCase_c" finished-at="2023-03-09T07:25:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_c -->
+        <test-method signature="testCase_e()[pri:0, instance:com.testng.learning.TestCaseWithNegativePriorityExample@4b013c76]" started-at="2023-03-09T07:26:33 IST" name="testCase_e" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_e -->
+        <test-method signature="testCase_b()[pri:1, instance:com.testng.learning.TestCaseWithNegativePriorityExample@4b013c76]" started-at="2023-03-09T07:26:33 IST" name="testCase_b" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_b -->
+        <test-method signature="testCase_d()[pri:2, instance:com.testng.learning.TestCaseWithNegativePriorityExample@4b013c76]" started-at="2023-03-09T07:26:33 IST" name="testCase_d" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_d -->
+        <test-method signature="testCase_a()[pri:3, instance:com.testng.learning.TestCaseWithNegativePriorityExample@4b013c76]" started-at="2023-03-09T07:26:33 IST" name="testCase_a" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_a -->
+      </class> <!-- com.testng.learning.TestCaseWithNegativePriorityExample -->
+      <class name="com.testng.learning.TestCaseWithAndWithOutPriorityExample">
+        <test-method signature="testCase_c()[pri:-1, instance:com.testng.learning.TestCaseWithAndWithOutPriorityExample@1cf6d1be]" started-at="2023-03-09T07:25:14 IST" name="testCase_c" finished-at="2023-03-09T07:25:15 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_c -->
+        <test-method signature="testCase_e()[pri:0, instance:com.testng.learning.TestCaseWithAndWithOutPriorityExample@1cf6d1be]" started-at="2023-03-09T07:26:33 IST" name="testCase_e" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_e -->
+        <test-method signature="testCase_b()[pri:1, instance:com.testng.learning.TestCaseWithAndWithOutPriorityExample@1cf6d1be]" started-at="2023-03-09T07:26:33 IST" name="testCase_b" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_b -->
+        <test-method signature="testCase_d()[pri:2, instance:com.testng.learning.TestCaseWithAndWithOutPriorityExample@1cf6d1be]" started-at="2023-03-09T07:26:33 IST" name="testCase_d" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_d -->
+        <test-method signature="testCase_a()[pri:3, instance:com.testng.learning.TestCaseWithAndWithOutPriorityExample@1cf6d1be]" started-at="2023-03-09T07:26:33 IST" name="testCase_a" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_a -->
+      </class> <!-- com.testng.learning.TestCaseWithAndWithOutPriorityExample -->
+      <class name="com.testng.learning.TestCasesWithoutPriorityExample">
+        <test-method signature="testCase_a()[pri:0, instance:com.testng.learning.TestCasesWithoutPriorityExample@663c9e7a]" started-at="2023-03-09T07:26:33 IST" name="testCase_a" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_a -->
+        <test-method signature="testCase_b()[pri:0, instance:com.testng.learning.TestCasesWithoutPriorityExample@663c9e7a]" started-at="2023-03-09T07:26:33 IST" name="testCase_b" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_b -->
+        <test-method signature="testCase_c()[pri:0, instance:com.testng.learning.TestCasesWithoutPriorityExample@663c9e7a]" started-at="2023-03-09T07:26:33 IST" name="testCase_c" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_c -->
+        <test-method signature="testCase_d()[pri:0, instance:com.testng.learning.TestCasesWithoutPriorityExample@663c9e7a]" started-at="2023-03-09T07:26:33 IST" name="testCase_d" finished-at="2023-03-09T07:26:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_d -->
+        <test-method signature="testCase_e()[pri:0, instance:com.testng.learning.TestCasesWithoutPriorityExample@663c9e7a]" started-at="2023-03-09T07:26:33 IST" name="testCase_e" finished-at="2023-03-09T07:26:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_e -->
+      </class> <!-- com.testng.learning.TestCasesWithoutPriorityExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

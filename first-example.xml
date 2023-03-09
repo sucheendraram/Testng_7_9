@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testng.learning.TestCasesWithZeroAsPriorityExample"/>
+      <class name="com.testng.learning.TestCasesWithPriorityExample"/>
+      <class name="com.testng.learning.FirstExample"/>
+      <class name="com.testng.learning.Example2"/>
+      <class name="com.testng.learning.BeforeClassAfterClassExample"/>
+      <class name="com.testng.learning.TestCaseWithNegativePriorityExample"/>
+      <class name="com.testng.learning.BeforeMethodAfterMethodExample"/>
+      <class name="com.testng.learning.TestCaseWithAndWithOutPriorityExample"/>
+      <class name="com.testng.learning.TestCasesWithoutPriorityExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
